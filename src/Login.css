@@ -1,0 +1,13 @@
+.login form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login span {
+    margin: 10px;
+}
+
+.dispError {
+    text-align: center;
+}

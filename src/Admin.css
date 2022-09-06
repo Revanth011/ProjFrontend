@@ -1,0 +1,42 @@
+.admin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.adminContainer {
+    width: 600px;
+}
+
+.columnTitle {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#userItem {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.date i {
+    margin: 0px 4px 0px 4px;
+    cursor: pointer;
+}
+
+.dateDisp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn button {
+    margin: 10px;
+}
